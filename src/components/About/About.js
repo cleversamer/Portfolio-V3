@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
@@ -7,7 +6,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
-function About() {
+const About = () => {
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -26,6 +25,7 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
+
           <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
@@ -34,6 +34,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
@@ -49,6 +50,6 @@ function About() {
       </Container>
     </Container>
   );
-}
+};
 
 export default About;
