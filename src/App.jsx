@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Preloader from "../src/components/Pre";
+import Preloader from "./components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
@@ -23,7 +23,7 @@ const App = () => {
   useEffect(() => {
     const timerId = setTimeout(() => {
       upadateLoad(false);
-    }, 1200);
+    }, 1500);
 
     return () => {
       clearTimeout(timerId);
@@ -33,6 +33,7 @@ const App = () => {
   return (
     <Router>
       <Preloader load={load} />
+
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
 
