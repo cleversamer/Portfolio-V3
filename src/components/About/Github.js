@@ -9,7 +9,7 @@ const Github = () => {
       </h1>
 
       <GitHubCalendar
-        username="soumyajit4419"
+        username="cleversamerr"
         blockSize={15}
         blockMargin={5}
         color="#c084f5"

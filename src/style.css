@@ -154,9 +154,16 @@ button:focus {
   color: rgb(250, 250, 250) !important;
 }
 
-.logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+.logo-container {
+  transition: all 1s ease-in;
+}
+
+.logo-container:hover {
+  transform: scale(1.03);
+}
+
+.logo-container:active {
+  transform: scale(0.97);
 }
 
 .navbar-nav .nav-link {

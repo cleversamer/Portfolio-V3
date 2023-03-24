@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineWhatsApp,
 } from "react-icons/ai";
 
 const Home2 = () => {
@@ -71,7 +72,7 @@ const Home2 = () => {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/cleversamerr"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -82,7 +83,7 @@ const Home2 = () => {
 
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/cleversamerr"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -93,7 +94,7 @@ const Home2 = () => {
 
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://linkedin.com/in/cleversamerr"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -104,12 +105,23 @@ const Home2 = () => {
 
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/cleversamer_"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
+                  href="https://wa.me/972597367603"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineWhatsApp />
                 </a>
               </li>
             </ul>
