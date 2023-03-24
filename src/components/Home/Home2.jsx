@@ -23,16 +23,17 @@ const Home2 = () => {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I'm fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> JavaScript, TypeScript and Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple"> SaaS Products </b> and also in areas
+                related to{" "}
                 <b className="purple">
                   Deep Learning and Natural Launguage Processing.
                 </b>
@@ -49,7 +50,7 @@ const Home2 = () => {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js</b>
               </i>
             </p>
           </Col>

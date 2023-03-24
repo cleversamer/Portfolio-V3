@@ -4,7 +4,12 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiVercel,
+  SiUbuntu,
+  SiVirtualbox,
+  SiPycharm,
+  SiIntellijidea,
+  SiGooglechrome,
+  SiChatbot,
 } from "react-icons/si";
 
 const Toolstack = () => {
@@ -15,7 +20,7 @@ const Toolstack = () => {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiUbuntu />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -23,11 +28,31 @@ const Toolstack = () => {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiHeroku />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiVisualstudiocode />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPycharm />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVirtualbox />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglechrome />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiChatbot />
       </Col>
     </Row>
   );

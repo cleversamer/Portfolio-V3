@@ -13,7 +13,7 @@ const Footer = () => {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>
-            Designed and Developed by{" "}
+            Designed &amp; Developed By{" "}
             <a
               href="https://twitter.com/cleversamerr"
               className="purple"
@@ -23,11 +23,12 @@ const Footer = () => {
               {" "}
               @cleversamerr
             </a>
+            .
           </h3>
         </Col>
 
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {new Date().getFullYear()} cleversamer</h3>
+          <h3>Copyright © {new Date().getFullYear()} cleversamer.</h3>
         </Col>
 
         <Col md="4" className="footer-body">
